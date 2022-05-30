@@ -1,0 +1,19 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/globals.css";
+import SSRProvider from 'react-bootstrap/SSRProvider'
+
+import Head from 'next/head';
+
+function MyApp({ Component, pageProps }) {
+
+    return (
+        <SSRProvider>
+            <Head>
+                <title>Grupo 1</title>
+                <meta name="description" content="WikiTech es un sitio web para aprender sobre periféricos."></meta>
+            </Head>
+            <Component {...pageProps} />
+        </SSRProvider>
+    )
+}
+export default MyApp;
