@@ -23,7 +23,7 @@ const magneticos = () => {
 
                     <div className="row">
                         <div className="col-sm-6 mx-auto my-auto">
-                            <h5>Lector de <span className="highlight">banda magnética</span>.</h5>
+                            <h5>Lector de <span className="highlight">banda magnética</span></h5>
                             <p>
                                 La tarjeta magnética fue una de las primeras tecnologías utilizadas para codificar datos en una tarjeta de PVC y sigue siendo uno de los medios de identificación más utilizados en todo el mundo. Su impacto es tal que, por extensión, un gran número de usuarios utilizan el nombre de tarjeta magnética para su identificación RFID y tarjeta identificativa de fichaje en empresa.
                             </p>

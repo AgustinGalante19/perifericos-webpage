@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <SSRProvider>
             <Head>
                 <title>Grupo 1</title>
-                <meta name="description" content="WikiTech es un sitio web para aprender sobre periféricos."></meta>
+                <meta name="description" content="Sitio web para aprender sobre periféricos."></meta>
             </Head>
             <Component {...pageProps} />
         </SSRProvider>
