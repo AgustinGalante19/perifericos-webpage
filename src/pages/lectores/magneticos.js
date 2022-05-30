@@ -15,7 +15,7 @@ const magneticos = () => {
                 </section>
                 <section>
                     <header><h3>¿ Cómo funcionan ?</h3></header>
-                    <p>La función de un lector magnético, es decodificar la información a través de las particulas ferromagnéticas que tiene la banda magnética a analizar.</p>
+                    <p>Para decodificar la información lo hace a través de las particulas ferromagnéticas que tiene la banda magnética a analizar.</p>
                     <p>En la banda magnética de la tarjeta, sus particulas pueden tomar 2 direcciones al ser magnetizadas, norte o sur, dependiendo de estas direcciones se traduce a 0 o 1.</p>
                 </section>
                 <section>
