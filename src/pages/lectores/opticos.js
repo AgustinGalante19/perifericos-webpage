@@ -56,6 +56,62 @@ const magneticos = () => {
                 </section>
                 <section>
                     <header><h3>¿Qué tipos de lectores ópticos existen?</h3></header>
+                    <ul>
+                        <li>
+                            <h5>Lector Óptico de lápiz</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Este modelo fue el más famoso durante un tiempo ya que tenía un precio bastante accesible y su tamaño le hacía ocupar poco espacio, para hacerlo funcionar solamente se debe colocar la punta del mismo en la parte donde está el código de barras a escanear y deslizarlo con cierta inclinación para que haga la lectura.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lector de Ranura</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Para hacer una lectura solamente se debe hacer un deslizamiento del documento a utilizar o tarjeta y asegurarse que el código de barras se encuentra muy cerca del lector.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lector de tipo rastrillo</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Este es un modelo de lector que trabaja con detector de foto y el mismo se conoce como CCD. Tiene una cantidad de LEDs que lo componen y su forma de trabajar es con fuente de luz, es muy parecido al de las cámaras de video. Para que se haga su labor es necesario un contacto físico entre el lector y el producto a escanear con la diferencia de que en este tipo de lectura no hay que hacer ningún tipo de movimiento para la lectura.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lector de proximidad</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Estos requieren una distancia bastante corta entre lector y producto que se necesita leer y tiene un alcance mucho mayor al lector CCD. Esto se debe a que la potencia del láser de estos es mucho mayor y son los más adecuados si se debe trabajar en una superficie que no sea regular o que tenga algún tipo de curva.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lector tipo pistola</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Estos trabajan con un mecanismo de activación para el escáner con la finalidad de evitar una lectura por equivocación de cualquier otro código en el área donde este se esté utilizando
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lectores fijos</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Similares a los lectores de tipo pistolas, pero estos se ubican en una base y la ventana de lectura se encuentra ubicada justo enfrente al código al que se le hará la lectura. Para realizar la lectura solo se debe pasar el producto por enfrente del mismo. Estos suelen ser los típicos lectores que encontramos en supermercados.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lectores de tipo Autónomo</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Este es un modelo que no requiere de una persona para su funcionamiento. Los lectores ópticos de este tipo pueden utilizarse en lugares de funcionamiento automático y también en bandas para transportar, la velocidad en la que realizan su lectura varía de acuerdo a la producción, también el lugar donde estén los códigos de barras dependerá de esto.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lector de Huella Dactilar</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Cuentan con una pequeña pieza que está en capacidad de reaccionar al tacto ya registrado y han adquirido gran fama ya que el sistema por contraseña ha traído problemas porque a veces estas se olvidan. Funciona colocando el dedo sobre un sensor que reconoce la huella dactilar del trabajador, el sensor digitaliza el dedo del usuario, captura la imagen tridimensional de la huella dactilar, la cual se compara con una imagen de la huella dactilar del usuario previamente capturada para comprobar su correspondencia.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Lector de Reconocimiento Facial</h5>
+                            <p style={{ fontSize: "12pt" }}>
+                                Este modelo tiene la capacidad de utilizar ciertos puntos de tipo biométrico, con la finalidad de detectar a una persona teniendo un conocimiento de su rostro. Es bastante efectivo porque no hay manera de hacerse pasar por una persona y entrar a un sitio siendo otra, la desventaja del mismo es que tiene un costo bastante alto para su adquisición.
+                            </p>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </Layout>
