@@ -15,16 +15,6 @@
   flex: 1;
 }
 
-
-/* #light .content-warp {
-  background-color: white;
-}
-
-#dark .content-wrap {
-  background-color: #0012C7;
-  color: yellow;
-} */
-
 #dark .content-wrap {
   background-color: #454545;
 }

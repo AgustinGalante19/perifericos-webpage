@@ -21,32 +21,20 @@ const Layout = ({ children }) => {
             router.events.off("routeChangeStart", handleRouteChange);
         }
     }, [router]);
-
-    /* const [theme, setTheme] = useState("dark") */
-
-    /* const toggleTheme = () => {
-        setTheme((curr) => (curr === "light" ? "dark" : "light"));
-        console.log(theme)
-    }
-    */
-    /* function onChange(checked) {
-        console.log(`switch to ${checked}`);
-    }
- */
     return (
-            <div className="page-container"/*  id={theme} */>
-                <div className="content-wrap">
-                    <Navigation>
-                        <div className="form-check form-switch" style={{ marginTop: 5 }}>
-                            <input className="form-check-input" type="checkbox" role="switch" /* onClick={toggleTheme} */ />
-                        </div>
-                    </Navigation>
-                    {children}
-                </div>
-                <Footer />
+        <div className="page-container">
+            <div className="content-wrap">
+                <Navigation>
+                    <div className="form-check form-switch" style={{ marginTop: 5 }}>
+                        <input className="form-check-input" type="checkbox" role="switch" />
+                    </div>
+                </Navigation>
+                {children}
             </div>
-        
+            <Footer />
+        </div>
+
     )
 }
 
-export default Layout;        {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> * </ThemeContext.Provider> */}
+export default Layout;
