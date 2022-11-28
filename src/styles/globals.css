@@ -48,6 +48,10 @@ footer {
   font-size: 6vw;
 }
 
+.peripheral-img {
+  width: 400px;
+}
+
 @media (max-width: 768px) {
   .grid-header {
     grid-template-columns: 1fr;

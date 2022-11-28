@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <SSRProvider>
             <Head>
-                <title>Grupo 1</title>
+                <title>WikiTech</title>
                 <meta name="description" content="Sitio web para aprender sobre periféricos."></meta>
             </Head>
             <Component {...pageProps} />
