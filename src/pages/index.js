@@ -89,7 +89,7 @@ export default function Home() {
           <h2 className="fw-bold fs-1 text-center light">Periféricos de <span className="highlight">almacenamiento</span></h2>
           <div className="col-sm-6 mx-auto my-auto">
             <p className="light text-center px-5 fs-5">
-              Los periféricos <span className="highlight">almacenamiento</span> son aquellos dispositivos electrónicos tienen como principal función <span className="highlight">guardar información de manera permanente</span>.
+              Los periféricos <span className="highlight">almacenamiento</span> son aquellos dispositivos electrónicos tienen como principal función <span className="highlight">guardar información de manera permanente</span>. Permitiendo transportar esta información de manera sencilla.
             </p>
           </div>
           <div className="col-sm-4 mx-auto py-4">
