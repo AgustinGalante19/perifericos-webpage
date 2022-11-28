@@ -42,7 +42,7 @@ export default function Home() {
         <article className="row" style={{ maringTop: "4vh", padding: "0px 5vw 0px 5vw" }}>
           <div className="col-sm-6 mx-auto my-auto">
             <p className="light text-center px-5 fs-5">
-              Los periféricos de<span className="highlight"> entrada</span> son aquellos que permiten la lectura de datos de una forma directa, sin necesidad de una interacción con el usuario.
+              Los periféricos de<span className="highlight"> entrada</span> son los dispositivos que permiten traducir la información que ingresa el usuario a algo comprensible para la computadora (micrófono, teclado, escáner, etc.).
             </p>
           </div>
           <div className="col-sm-4 mx-auto py-4">
@@ -60,7 +60,7 @@ export default function Home() {
         <article className="row" style={{ maringTop: "4vh", padding: "0px 5vw 0px 5vw" }}>
           <div className="col-sm-6 mx-auto my-auto">
             <p className="light text-center px-5 fs-5">
-              Los periféricos de<span className="highlight"> salida</span> son aquellos que permiten la escritura de datos de una forma directa, sin necesidad de una interacción con el usuario.
+              Los periféricos de<span className="highlight"> salida</span> son aquellos que permiten mostrar la información procesada por la computadora de una manera comprensible para el usuario (monitores, parlantes, impresoras, etc).
             </p>
           </div>
           <div className="col-sm-4 mx-auto py-4">
@@ -76,7 +76,7 @@ export default function Home() {
         <article className="row" style={{ maringTop: "4vh", padding: "0px 5vw 0px 5vw" }}>
           <div className="col-sm-6 mx-auto my-auto">
             <p className="light text-center px-5 fs-5">
-              Los periféricos <span className="highlight">mixtos</span> son aquellos dispositivos electrónicos que operan como <span className="highlight">entrada</span> y como <span className="highlight">salida</span> de <span className="highlight">información</span>, permitiendo introducir o extraer datos del sistema.
+              Los periféricos <span className="highlight">mixtos</span> son aquellos dispositivos electrónicos que operan como <span className="highlight">entrada</span> y como <span className="highlight">salida</span> de <span className="highlight">información</span>, permitiendo introducir o extraer datos del sistema (pantalla táctil, impresora con escáner, etc).
             </p>
           </div>
           <div className="col-sm-4 mx-auto py-4">
